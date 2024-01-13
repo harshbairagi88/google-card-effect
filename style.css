@@ -1,0 +1,4 @@
+#cards{
+    perspective: 1000px;
+    perspective-origin: center center;
+}

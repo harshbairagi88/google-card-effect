@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main" class="h-screen w-full bg-[#0073E6] relative flex ">
+        <div id="nav" class=" absolute w-full flex text-white p-7 justify-between text-lg z-50 transition-all duration-500 ease-out">
+            <h2>About</h2>
+            <h2>The Web Can Do What!? </h2>
+            <h2>Share</h2>
+        </div>
+        <div id="left" class="h-full w-1/2 relative overflow-hidden flex justify-center items-center">
+            <h1 class="text-5xl font-semibold z-50 transition-all duration-500 ease-out text-zinc-600">Next Card</h1>
+            <div id="left-circle" class="h-[120vh] w-[120vh] bg-[#FFBB25] rounded-full absolute left-full transition-all duration-500 ease-linear">
+            </div>
+        </div>
+
+        <div id="right" class="h-full w-1/2 relative overflow-hidden flex justify-center items-center">
+            <h1 class="text-5xl font-semibold z-50 text-zinc-600">Show me!</h1>
+            <div id="right-circle" class="h-[120vh] w-[120vh] bg-[#2991F5] rounded-full absolute right-full transition-all duration-500 ease-linear">
+            </div>
+        </div>
+
+        <div id="cards" class="h-[70vh] w-[22vw]   absolute top-1/2 left-1/2 -translate-x-1/2  -translate-y-1/2">
+
+            <div id="card1" class="h-[70vh] w-[22vw] absolute z-30 transition-all duration-500 ease-linear">
+                <img class="h-full w-full object-cover" src="https://thewebshowcase.withgoogle.com/assets/images/card_titles/1_titlecard.png" alt="">
+            </div>
+
+            <div id="card2" class="h-[70vh] w-[22vw] absolute flex flex-col justify-center items-center py-4 z-20 rotate-6">
+                <img class="h-1/2 w-full object-cover"  src="./card 2 img.png" alt="">
+                <video class="h-1/2 w-full object-cover"  autoplay muted loop src="./card 2 video.mp4"></video>
+            </div>
+
+            <div id="card3" class="h-[70vh] w-[22vw] absolute flex flex-col justify-center items-center z-10 -rotate-6">
+                <img class="h-1/2 w-full object-cover " src="./card 3 img.png" alt="">
+                <video class="h-1/2 w-full object-cover " autoplay muted loop src="./card 3 video.mp4"></video>
+            </div>
+        </div>
+    
+       
+    </div>
+
+   
+    <script src="script.js"></script>
+</body>
+</html>
